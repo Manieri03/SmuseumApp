@@ -20,7 +20,7 @@ namespace WpfSmuseum
 
             var splashScreen = new SplashScreen();
             this.MainWindow = splashScreen;
-            splashScreen.Show();
+            splashScreen.Show(); 
             Task.Factory.StartNew(() =>
             {
 
